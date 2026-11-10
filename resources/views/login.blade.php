@@ -17,7 +17,7 @@
                     </div>
 
                     @error('username')
-                        <p class="text-red-600 text-sm mt-2 ml-4">{{$massage}}</p>
+                        <p class="text-red-600 text-sm mt-2 ml-4">{{$message}}</p>
                     @enderror
                 </div>
 

@@ -36,8 +36,9 @@ class PageController extends Controller
 
     public function authenticate(Request $request)
     {
-        $request->validate(['username' => 'required|min:3']);
-
+        $request->validate(['username' => 'required|min:3'], 
+        ['username.required' => 'Username wajib diisi.',
+        'username.min'      => 'Username minimal 3 karakter.'],);
         return redirect()->route('dashboard', ['username' => $request->username]);
     }
 
