@@ -34,3 +34,5 @@ Dolano.id membantu wisatawan menemukan destinasi, dan kuliner di Jawa Timur. Pen
 ## Catatan
 
 Proyek ini tidak menggunakan database, CRUD, maupun starter kit (Breeze, Jetstream, dan sejenisnya). Seluruh data berasal dari array di Controller, dan desain antarmuka dibuat sendiri.
+
+https://youtu.be/PrzW6cYC9zk
